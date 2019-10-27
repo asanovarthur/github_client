@@ -3,9 +3,8 @@ export enum StatusTypes {
   Private = "private"
 }
 
-export interface RepositoryProps {
-  user: string;
-  repositoryInfo: {
+export interface PageProps {
+  repository: {
     name: string;
     description: string;
     status: StatusTypes;
