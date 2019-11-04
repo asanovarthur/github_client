@@ -1,8 +1,6 @@
 import { combineReducers } from "redux";
-import { pageReducer } from "./page";
-import { userReducer } from "./user";
+import { repositoryReducer } from "./repository";
 
 export const rootReducer = combineReducers({
-  page: pageReducer,
-  user: userReducer
+  repository: repositoryReducer,
 });
